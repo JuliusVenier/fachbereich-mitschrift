@@ -1,6 +1,6 @@
 # CSS Snippets
 
-## Bildrechts
+## Bild Rechts
 
 ``` css
 .bildrechts{
@@ -10,7 +10,7 @@
 }
 ```
 
-## Bildlinks
+## Bild Links
 
 ``` css
 .bildlinks{
@@ -19,14 +19,34 @@
     margin-top: 0;
 }
 ```
+## Bild Zentriert
+
+``` css
+.bildlinks, .bildrechts{
+    float: none;
+    text-align: center;
+    margin: 0;
+}
+```
 
 ## Clearfix
 > ❗ **Wichtig**
-> Sollte sich auf der Seite irgendwas verschieben benutzt dieses Clearfix, sollte eigentlich überall funktionieren
+> Sollte sich auf der Seite irgendwas verschieben benutzt dieses Clearfix, sollte eigentlich überall funktionieren.
 ``` css
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
+```
+
+## Variablen
+``` css
+* {
+    --blau: #4658ff;
+}
+
+main {
+    background-color: var(--blau);
+}
 ```

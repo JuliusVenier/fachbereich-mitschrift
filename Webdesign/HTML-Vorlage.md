@@ -16,7 +16,7 @@
         <header>
             <img src="imgs/bild.jpg" alt="Beschreibung">
         </header>
-        <nav>
+        <nav class="clearfix">
             <ul>
                 <li id="actual"><a href="seite1.html">Seite 1</a></li>
                 <li><a href="seite2.html">Seite 2</a></li>

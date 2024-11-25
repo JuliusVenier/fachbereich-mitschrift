@@ -55,16 +55,18 @@ footer {
     background-color: var(--gruen);
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 @media only screen and (min-width: 35em) and (max-width: 51em) {
     nav a {
         float: left;
         width: 15%;
         margin: 0;
         margin-right: 1em;
-    }
-
-    main {
-        clear: both;
     }
 }
 
